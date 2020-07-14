@@ -1,0 +1,18 @@
+TITKOSÍTÁS
+legyen bejelentkezési felület jelszavas e-mail-es alapra, regisztráció nincs
+bejelentkeztetés aktivációs kóddal bizonyos idősávra
+---> ennek függvényében tartalomhozzáférés korlátozások
+
+-----
+SZERKEZET
+Létrehozandó fülek: Csatornabemutató, Aktualitások, Rólam, Elérhetőség, (publikációk, letöltések stb.)
+verziószám kezelés beüzemelés
+
+------
+TARTALOM
+Csatornabemutató megírása
+aktualitások beüzemelése
+Rólam beüzemelése
+elérhetőségbe helyi üzenetküldő lehetőség szerkesztése
+
+rovat tippek: ragasztás, napló, póker, sales publikációk
