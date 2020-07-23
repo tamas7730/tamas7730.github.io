@@ -1,71 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Szabó Tamás weboldala</title>
-    <link rel="stylesheet" href="/CSS/main_style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Szabó Tamás weboldala</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/CSS/main_style.css">
 </head>
+
 <body>
-    <div class="accountline1">
-        <div id="loginblock1">
-            <div class="accountinfo1">
-                <Label for="accemail1">E-mail</Label>
-                <input id="accemail1" name="accemail1" type="email">
-            </div>
-            <div class="accountinfo1">
-                <Label for="accpassword1">Jelszó</Label>
-                <input id="accpassword1" name="accpassword1" type="password">
-            </div>
-            <div class="accountinfo1">
-                <Button class="submit-btm">Bejelentkezés</Button>
-            </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Üdv!</a>
+    <button id="navbarTogglerButton" class="navbar-toggler collapsed" type="button" data-toggle="collapse"
+      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Aktualitások</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Bemutatkozás</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Önéletrajz</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Elérhetőség</a>
+        </li>
+      </ul>
+      <form id="logInBarID" class="form-inline flex-row">
+        <label class="sr-only" for="inlineFormInputName2">Login</label>
+        <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Felhasználónév">
+
+        <label class="sr-only" for="inlineFormInputGroupUsername2">Username</label>
+        <div class="input-group mb-2 mr-sm-2">
+
+          <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Jelszó">
         </div>
-    </div>
 
-    <h1 id="Initial1">
-        Üdvözöllek a weboldalamon!
-    </h1>
+        <button type="submit" class="btn btn-primary mb-2 mr-sm-3">Bejelentkezés</button>
 
-    <div class="headerimg1">
-        <img src="/images/header.jpg" alt="Picture is not available">
-    </div>
-
-    <div class="Buttonline">
-        <div class="buttonbox1">
-            <a href="pages\me.html">
-                <h2>
-                    Aktualitások
-                </h2>
-            </a>
-        </div>          
-        <div class="buttonbox1">
-            <a href="pages\CV.html">
-                <h2>
-                    Bemutatkozás
-                </h2>
-            </a> 
-        </div>        
-        <div class="buttonbox1">
-            <a href="pages\projects.html">
-                <h2>
-                    Önéletrajz
-                </h2>
-            </a>
+        <div class="form-check mb-2 mr-sm-2">
+          <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+          <label class="form-check-label" for="inlineFormCheck">
+            Emlékezz rám
+          </label>
         </div>
-        <div class="buttonbox1">
-            <a href="pages\contact.html">
-                <h2>
-                    Elérhetőség
-                </h2>
-            </a>
-        </div>
+      </form>
     </div>
+  </nav>
 
-   <div class="bottomline1">
+  <div class="container">
+    <div class="row ">
+      <div class="col-2">
+      </div>
+      <div class="col-8 ">
+        <div class="card mt-3 mb-3">
+          <img src="https://via.placeholder.com/468x100" class="card-img-top" alt="Kép nem elérhető">
+          <div class="card-body">
+            <h5 class="card-title">Frissítés</h5>
+            <p class="card-text">Elkészült a weboldal új arculata. Új dízájn, új háttér, új elrendezés.További fejlesztések rövidesen érkeznek</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card mt-3  mb-3">
+          <img src="https://via.placeholder.com/468x100" class="card-img-top" alt="Kép nem elérhető">
+          <div class="card-body">
+            <h5 class="card-title">Teszt hír</h5>
+            <p class="card-text">Teszt Teszt Teszt Teszt Teszt Teszt Teszt Teszt <br> Teszt Teszt Teszt Teszt Teszt </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+      </div>
+    </div>
+  </div>
+  <div class="container-fluid">
+    <div class="row ">
+      <div class="col-3 text-white ">
+        <span class="font-italic">Verzió 0.00.01</span>
+      </div>
+      <div class="col-6 text-white ">
+      </div>
+      <div class="col-3 text-white">
+        <button id="teszt" class="float-right">Fejlesztői gomb</button>
+      </div>
 
-   </div>
+    </div>
+  </div>
 
 
+  <script src="/JS/picture.js"></script>
+  <script src="/JS/navbartoggle.js"></script>
 </body>
+
 </html>
+
+<!-- 
+Navbar nyitó csukó mechanizmus
+
+        <button id="navbarTogglerButton" class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+
+
+                  <button id="navbarTogglerButton" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse show" id="navbarSupportedContent">
+   -->
+
+
+
+
+
+<!--           
+    Karusszelhez kód 
+    <div class="carousel-inner">
+
+              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+          <div id="coverimage1" class="carousel-item">
+            <img  src="/SOURCE/header.jpg" class="d-block w-100" alt="..." >
+          </div>
+          <div id="coverimage2" class="carousel-item">
+            <img  src="/SOURCE/60765796_2227773387300781_3604930531600367616_o.jpg" class="d-block w-100" alt="..." >
+          </div>
+          <div id="coverimage3" class="carousel-item active">
+            <img  src="/SOURCE/65272827_2294867927257993_3610684323193159680_o.jpg" class="d-block w-100" alt="..." >
+          </div>
+          <div id="coverimage4" class="carousel-item">
+            <img  src="/SOURCE/66087957_2311249178953201_6197662671693676544_o.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <a id="prevCoverPhoto" class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a id="nextCoverPhoto" class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+        
+ -->
+
+
+
+
+<!-- 
+          Alap footer
+          <footer contenteditable>      <button id="teszt">Teszt</button></footer> -->

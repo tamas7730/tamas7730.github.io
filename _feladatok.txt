@@ -1,3 +1,6 @@
+Aktualitások, bemutatkozás, önéletrajz, elérhetőség
+
+
 TITKOSÍTÁS
 legyen bejelentkezési felület jelszavas e-mail-es alapra, regisztráció nincs
 bejelentkeztetés aktivációs kóddal bizonyos idősávra
